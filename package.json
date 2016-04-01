@@ -1,0 +1,29 @@
+{
+  "name": "HashTagToe",
+  "version": "1.0.0",
+  "description": "A classic concurrent game of tic-tac-toe",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya Berelson",
+  "license": "(c)2015-2016",
+  "dependencies": {
+    "angular": "",
+    "body-parser": "",
+    "breeze-client": "",
+    "breeze-mongodb": "",
+    "express": "",
+    "http": "",
+    "html": "",
+    "mongodb": "",
+    "path": ""
+  },
+  "private": true,
+  "devDependencies": {
+    "angular-router-browserify": "",
+    "browserify": "",
+    "browserify-shim": "^3.8.11",
+    "stringify": ""
+  }
+}

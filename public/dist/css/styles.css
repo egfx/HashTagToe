@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#board {
+  display: block;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Lato", Helvetica, sans-serif;
+  color: #888;
+  border-bottom: 1px solid #888;
+  padding: 50px;
+  margin: 10px;
+}
+
+h1 .new {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+h1 .new span.chance {
+  color: #F44336;
+}
+
+h1 .new_2 {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+h1 .new_2 span.score {
+  font-size: 20px;
+}
+
+h1 .new_2 span.score small {
+  color: #F44336;
+}
+
+h1 button #btn_reset {
+  border: 3px solid #F44336;
+  outline: none;
+  background-color: #F44336;
+  color: #fff;
+  font-weight: 900;
+  padding: 6px 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+h1 button#btn_reset:hover {
+  background-color: transparent;
+  color: #F44336;
+}
